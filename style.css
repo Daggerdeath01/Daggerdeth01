@@ -1,0 +1,81 @@
+?
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+/*	background-color: turquoise;*/
+
+font-family: 'Montserrat', sans-serif;
+text-align: center;
+}
+
+h1 {
+	font-size: 260%;
+	color: tomato;
+	transform: translate(25%, 150%);
+}
+
+#topBanner > h2 {
+	transform: translate(35%, 1000%);
+	background-color: turquoise;
+	border-radius: 20px;
+	padding: 5px;
+}
+
+#cards {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.place{
+	height: 330px;
+	width: 330px;
+	object-fit: cover;
+	border: 5px solid red ;
+}
+h3 {
+	font-size: 260%;
+	color:turquoise;
+}
+a{
+	text-decoration: none;
+}
+
+li{
+	list-style-type: none;
+}
+
+#banner {
+	width: 100%;
+	position: relative;
+}
+
+#logo {
+	width: 30%;
+	padding: 50px;
+	transform: translate(0, -10%);
+}
+
+#menuIcon {
+	width: 100%;
+	transform: translate(1200px, 10px);
+}
+
+#signInIcon {
+	width: 100%
+	transform: translate(1200px, 10px);
+}
+
+#topBanner{
+	display: flex;
+}
+
+#logo, #topBanner > div, h1, #topBanner > h2{
+	position: absolute;
+}
+
+#topBanner > div {
+	transform: translate(42%, 60%);
+}
